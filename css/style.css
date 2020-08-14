@@ -1,0 +1,108 @@
+.card-body {
+    position: absolute;
+    background-color: var(--color-theme);
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    color: var(--color-text-white);
+    border-radius: 10px;
+    font-family: "OCR A Regular";
+    box-shadow: 0px 4px 18px -4px black;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 53px -4px black;
+    position: relative;
+    top: -4px;
+}
+
+.image-icon {
+    height: 55px;
+    margin-left: 23px;
+}
+
+.card-icon {
+    width: 100%;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 8px;
+}
+
+.card-chip {
+    width: 100%;
+    padding-left: var(--padding-left);
+}
+
+.numbers {
+    font-size: 26px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70px 70px 70px auto;
+    padding-left: var(--padding-left);
+}
+
+.dates {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 130px auto;
+    font-size: 20px;
+    width: 50px;
+}
+
+.card-icon-2 {
+    height: 52px;
+    width: 64px;
+    font-size: 12px;
+    position: relative;
+    top: -11px;
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-columns: auto auto;
+}
+
+.card-icon-2 span {
+    margin-left: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+}
+
+.circle.yellow {
+    background-color: var(--color-yellow);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 29px;
+    opacity: 80%;
+}
+
+.circle.red {
+    background-color: var(--color-red);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    opacity: 80%;
+    margin-left: -67px;
+}
+
+.name {
+    padding-left: var(--padding-left);
+    padding-top: 22px;
+    width: 211px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 240px auto;
+}
+
+:root {
+    --padding-left: 30px;
+    --color-theme: #A11ED9;
+    --color-yellow: #F89D1C;
+    --color-red: #E41B24;
+    --color-text-white: #F7F1FA;
+}
